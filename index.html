@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sharks</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #000;
+				color: #fff;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#info {
+				color: #fff;
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: center;
+				z-index: 100;
+				display: block;
+			}
+			#info a, .button {
+        color: #f00;
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+		</style>
+	</head>
+	<body>
+
+    <!-- Threejs -->
+		<script src="three.js-master/build/three.js"></script>
+
+    <!-- Controls -->
+    <script src="three.js-master/examples/js/controls/OrbitControls.js"></script>
+    <script src="three.js-master/examples/js/controls/FirstPersonControls.js"></script>
+
+    <!-- Loaders -->
+    <script src="three.js-master/examples/js/loaders/BinaryLoader.js"></script>
+    <script src="three.js-master/examples/js/loaders/ColladaLoader.js"></script>
+    <script src="three.js-master/examples/js/loaders/FBXLoader.js"></script>
+    <script src="three.js-master/examples/js/loaders/OBJLoader.js"></script>
+
+    <!-- Utils -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.5/dat.gui.min.js"></script>
+    <script src="three.js-master/examples/js/libs/stats.min.js"></script>
+
+    <!-- Grow -->
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>
